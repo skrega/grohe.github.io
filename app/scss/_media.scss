@@ -1,0 +1,112 @@
+@media (max-width: 1250px){
+    .collection__inner, .products__inner{
+        max-width: 945px;
+    }
+   .offers__inner{
+       max-width: 1028px;
+   }
+   .technology,
+   .disign{
+        padding: 20px 0;
+   }
+}
+@media (max-width: 1024px){
+    .main__slider-item{
+        min-height: 300px;  
+    }
+    .offers__inner{
+        max-width: 956px;
+    }
+    .footer{
+        padding-top: 15px;
+    }
+    .footer__inner{
+        flex-wrap: wrap;
+        max-width: 630px;
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .footer__column{
+       width: 50%;
+       margin-top: 25px;
+    }
+}
+@media (max-width: 950px){
+    .collection__inner, .products__inner{
+        max-width: 620px;   
+    }
+    .offers{
+        margin-bottom: 30px;
+    }
+    .offers__inner{
+        max-width: 620px;
+    }
+    .technology__title, .disign__title{
+        text-align: center;
+    }
+    .technology__img,
+    .disign__img{
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+    }
+}
+@media (max-width: 768px){
+    .header{
+        padding: 10px 0 0;
+    }
+    .header__inner{
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    .header__contacts{
+        margin: 20px 0;
+        width: 80%;
+        justify-content: space-around;
+    }
+    .collection__inner, .products__inner {
+        max-width: 622px;
+    }
+    
+}
+@media (max-width: 630px){
+    .collection__inner, .products__inner {
+        max-width: 290px;
+    }
+    .offers__inner{
+        max-width: 290px;
+    }
+    .technology,
+    .disign{
+         padding: 10px 0;
+    }
+    .slick-arrow{
+        bottom: -10px;
+    }
+    .slick-prev {
+        right: 58%;
+    }
+    .slick-next {
+        right: 44%;
+    }
+    .footer__inner{
+        flex-direction: column;
+    }
+    .footer__column{
+        width: 100%;
+    }
+}
+@media (max-width: 530px){
+    .header__contacts{
+        width: 100%;
+    }
+}
+@media (max-width: 375px){
+   .header__contacts{
+        flex-direction: column;
+   }
+   .header__contacts-inner{
+     margin: 0 0 20px;
+   }
+}
